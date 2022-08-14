@@ -1,2 +1,2 @@
 # email-sender
-Sends email every 5 minutes Using the github actions
+Sends email once a year Using the github actions
