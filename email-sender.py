@@ -10,7 +10,7 @@ USER_PASSWORD = os.environ.get("USER_PASSWORD")
 message = """\
     Subject: Welcome Shri
 
-    This is a welcome mail 
+    This mail to check if the build is sucessful
     
     thank you
     regards 
