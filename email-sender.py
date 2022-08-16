@@ -1,5 +1,6 @@
 
-import ssl,smtplib
+import ssl
+import smtplib
 import os
 
 port = 465
@@ -19,8 +20,10 @@ message = """\
 
 context = ssl.create_default_context()
 
-server = smtplib.SMTP_SSL(smtp_server,port,context=context)
+server = smtplib.SMTP_SSL(smtp_server, port, context=context)
 
-server.login(USER_EMAIL,USER_PASSWORD)
+server.login(USER_EMAIL, USER_PASSWORD)
 
-server.sendmail(USER_EMAIL,USER_EMAIL,message)
+server.sendmail(USER_EMAIL, USER_EMAIL, message)
+
+print("hello world")
